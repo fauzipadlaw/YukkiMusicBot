@@ -22,7 +22,7 @@ YESORNO_COMMAND = get_command("YESORNO_COMMAND")
 )
 @language
 async def ping_com(client, message: Message, _):
-    yesorno = requests.get("https://yesno.wtf/api")
+    yesorno = await requests.get("https://yesno.wtf/api")
     data = yesorno.text
     parse_json = json.loads(data)
     image_url = parse_json['image']
