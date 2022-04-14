@@ -2,11 +2,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
+from config import BANNED_USERS
 from strings import get_command
 from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils import bot_sys_stats
 from YukkiMusic.utils.decorators.language import language
 import requests
 import json
@@ -28,7 +26,7 @@ async def ping_com(client, message: Message, _):
     parse_json=json.loads(data)
     image_url=parse_json['image']
     caption=parse_json['answer']
-    response = await message.reply_gif(
+    response = await message.reply_video(
         photo=image_url,
         caption=caption,
     )
