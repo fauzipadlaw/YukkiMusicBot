@@ -9,6 +9,7 @@ from YukkiMusic.core.call import Yukki
 from YukkiMusic.utils import bot_sys_stats
 from YukkiMusic.utils.decorators.language import language
 import requests
+import json
 
 ### Commands
 YESORNO_COMMAND = get_command("YESORNO_COMMAND")
@@ -22,11 +23,11 @@ YESORNO_COMMAND = get_command("YESORNO_COMMAND")
 )
 @language
 async def ping_com(client, message: Message, _):
-    yesorno = await requests.get("https://yesno.wtf/api")
-    data = yesorno.text
-    parse_json = json.loads(data)
-    image_url = parse_json['image']
-    caption = parse_json['answer']
+    yesorno=requests.get("https://yesno.wtf/api")
+    data=yesorno.text
+    parse_json=json.loads(data)
+    image_url=parse_json['image']
+    caption=parse_json['answer']
     response = await message.reply_photo(
         photo=image_url,
         caption=caption,
