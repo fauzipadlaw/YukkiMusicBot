@@ -21,7 +21,7 @@ YESORNO_COMMAND = get_command("YESORNO_COMMAND")
     & ~BANNED_USERS
 )
 @language
-async def yesno_com(client, message: Message, _):
+async def ping_com(client, message: Message, _):
     yesorno = requests.get("https://yesno.wtf/api")
     data = yesorno.text
     parse_json = json.loads(data)
