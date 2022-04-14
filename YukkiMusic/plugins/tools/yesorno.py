@@ -28,7 +28,7 @@ async def ping_com(client, message: Message, _):
     parse_json=json.loads(data)
     image_url=parse_json['image']
     caption=parse_json['answer']
-    response = await message.reply_photo(
+    response = await message.reply_gif(
         photo=image_url,
         caption=caption,
     )
