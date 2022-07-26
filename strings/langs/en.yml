@@ -96,7 +96,7 @@ setting_10 : "⁉️ What is This?\n\n1) Group: Plays music in the group where t
 setting_11 : "⁉️ What is This?\n\n1) Everyone: Anyone present in this group can play music here.\n\n2) Admin Only: Only admins can play the music in this group."
 setting_12 : "❌ You've no channel id defined for channel mode. Please define with /channelplay."
 setting_13 : "Can't change play mode in active group call. Please stop the voice chat first with /stop."
-setting_14 : "⁉️ What is This?\n\nWhen activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.\n\nBot will be requiring delete messages admin right for this to work properly."
+setting_14 : "⁉️ What is This?\n\nWhen activated, Bot will delete its executed commands (/p, /pause, /shuffle, /stop etc) immediately.\n\nBot will be requiring delete messages admin right for this to work properly."
 setting_15 : "Failed to resolve peer, Make sure you have added bot in your channel and promoted it as admin.\n\nTry setting /channelplay again.."
 setting_16 : "⁉️ What is This?\n\nWhen activated, Bot will suggest your chat in every 1-2 hour about bot commands (How to use them, which are the commands and many other things) randomly."
 
@@ -163,7 +163,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
+playlist_1 : "**Usage:** /p [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
@@ -448,11 +448,11 @@ sug_2 : "You can play music in two **play types** i.e. Everyone Mode and Admins 
 sug_3 : "You can play music in **channels** too.\n\nSet channel_id via /channelplay and play via /cplay "
 sug_4 : "Non Admins can use admin commands too by adding them to** AUTH USERS LIST**. \nAdd any user to auth list by /auth , remove with /unauth and check auth users via /authusers"
 sug_5 : "Bot has a feature called **Clean Mode**.\nIt deletes the bot's messages after 5 Mins and ensures that  your chat remains clean.\n\nEnable or disable cleanmode from /settings [__Enabled by default__]"
-sug_6 : "You can play **Spotify** tracks and playlists too.\n\nStart playing now with /play [Spotify Link]"
-sug_7 : "You can play **Apple Music** tracks and playlists too.\n\nStart playing now with /play [Apple Link]"
-sug_8 : "You can play **Resso Music** tracks and playlists too.\n\nStart playing now with /play [Resso Link]"
-sug_9 : "You can play **Sound Cloud** tracks and playlists too.\n\nStart playing now with /play [SoundCloud Link]"
-sug_10 : "You can play **Videos** in voice chat via /vplay [Video Name] or /play -v [Video Name]"
+sug_6 : "You can play **Spotify** tracks and playlists too.\n\nStart playing now with /p [Spotify Link]"
+sug_7 : "You can play **Apple Music** tracks and playlists too.\n\nStart playing now with /p [Apple Link]"
+sug_8 : "You can play **Resso Music** tracks and playlists too.\n\nStart playing now with /p [Resso Link]"
+sug_9 : "You can play **Sound Cloud** tracks and playlists too.\n\nStart playing now with /p [SoundCloud Link]"
+sug_10 : "You can play **Videos** in voice chat via /vplay [Video Name] or /p -v [Video Name]"
 sug_11 : "You can set **Audio Quality** of voice chat to Low, Medium or High.\n\nSet quality via /settings"
 sug_12 : "You can set **Video Quality** of voice chat to Low, Medium or High.\n\nSet quality via /settings"
 sug_13 : "You can check your **Statistics** on bot like Top 10 Played Tracks.\n\nGet Stats: /gstats "
@@ -463,7 +463,7 @@ sug_17 : "You can now unmute and mute the music which is playing on voice chat.\
 sug_18 : "You can search the lyrics of musics with us too..\n\nCommand: /lyrics [Music Name]"
 sug_19 : "You can download the music or video from the bot through Youtube.\n\nCommand: /song [Music Name]"
 sug_20 : "You can get a complete list of my commands that i accept.\n\nCommand: /help"
-sug_21 : "Bot has server-sided playlist option.\n\nYou can add music in your playlist and play them all together via /play"
+sug_21 : "Bot has server-sided playlist option.\n\nYou can add music in your playlist and play them all together via /p"
 sug_22 : "You can now shuffle the queued musics on the bot.\n\nCommand: /shuffle"
 sug_23 : "You can check the queue of the musics.\n\nCommand: /queue"
 sug_24 : "You can check my owner and sudo users who manage me.\n\nCommand: /sudolist"

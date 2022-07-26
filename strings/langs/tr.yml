@@ -86,7 +86,7 @@ setting_10 : "⁉️ Bu Nedir?\n\n1) Grup: Komutun verildiği gruptaki müziği 
 setting_11 : "⁉️ Bu Nedir?\n\n1) Herkes: Bu grupta bulunan herkes burada müzik çalabilir.\n\n2) Yalnızca Yönetici: Bu gruptaki müziği yalnızca yöneticiler çalabilir."
 setting_12 : "❌ Kanal modu için tanımlanmış kanal kimliğiniz yok. Lütfen /channelplay ile tanımlayın."
 setting_13 : "Etkin grup aramasında oynatma modu değiştirilemez. Lütfen önce /stop ile sesli sohbeti durdurun."
-setting_14 : "⁉️ Bu Nedir?\n\nEtkinleştirildiğinde, Bot yürütülen komutları (/play, /pause, /shuffle, /stop vb.) hemen siler.\n\nBot, bunun düzgün çalışması için admin hakkının mesajları sil yetkisi gerektirecektir.."
+setting_14 : "⁉️ Bu Nedir?\n\nEtkinleştirildiğinde, Bot yürütülen komutları (/p, /pause, /shuffle, /stop vb.) hemen siler.\n\nBot, bunun düzgün çalışması için admin hakkının mesajları sil yetkisi gerektirecektir.."
 setting_15 : "Eş çözümlenemedi, Kanalınıza bot eklediğinizden ve onu yönetici olarak terfi ettirdiğinizden emin olun.\n\n/channelplay'i tekrar ayarlamayı deneyin..."
 
 set_cb_1 : "Ses Kalitesi Panelini Alma..."
@@ -151,7 +151,7 @@ play_16 : "Parça ayrıntıları getirilemedi. başka şarkı dene."
 
 
 #Playlist
-playlist_1 : "**Kullanım:** /play [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki butona basın."
+playlist_1 : "**Kullanım:** /p [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki butona basın."
 playlist_2 : "Çalma listeniz alınıyor. Lütfen bekleyin"
 playlist_3 : "Bot Sunucusunda oynatma listeniz yok."
 playlist_4 : "Getirilen Oynatma Listesit:\n\n"

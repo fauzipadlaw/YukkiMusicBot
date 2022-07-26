@@ -49,7 +49,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 **v** stands for video play.
 **force** stands for force play.
 
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
+/p or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
 
 /playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
 
@@ -59,7 +59,7 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 ✅**<u>Bot's Server Playlists:</u>**
 /playlist  - Check Your Saved Playlist On Servers.
 /deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+/p  - Start playing Your Saved Playlist from Servers."""
 
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
@@ -96,7 +96,7 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 
 4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
 
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
+5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/p, /pause, /shuffle, /stop etc) immediately.
 
 6️⃣ **Play Settings:**
 
@@ -104,7 +104,7 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
 
 <u>Options in playmode:</u>
 
-1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
+1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /p mode. 
 
 2️⃣ **Admin Commands** [Everyone or Admins] - If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
 

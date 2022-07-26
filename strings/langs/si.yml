@@ -89,7 +89,7 @@ setting_10 : "⁉️ What is This?\n\n1) Group: Plays music in the group where t
 setting_11 : "⁉️ What is This?\n\n1) Everyone: Anyone present in this group can play music here.\n\n2) Admin Only: Only admins can play the music in this group."
 setting_12 : "❌ You've no channel id defined for channel mode. Please define with /channelplay."
 setting_13 : "Can't change play mode in active group call. Please stop the voice chat first with /stop."
-setting_14 : "⁉️ What is This?\n\nWhen activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.\n\nBot will be requiring delete messages admin right for this to work properly."
+setting_14 : "⁉️ What is This?\n\nWhen activated, Bot will delete its executed commands (/p, /pause, /shuffle, /stop etc) immediately.\n\nBot will be requiring delete messages admin right for this to work properly."
 setting_15 : "Failed to resolve peer, Make sure you have added bot in your channel and promoted it as admin.\n\nTry setting /channelplay again.."
 
 set_cb_1 : "ශ්‍රව්‍ය තත්ත්ව පැනලය ලබා ගනිමින්..."
@@ -154,7 +154,7 @@ play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an
 
 
 #Playlist
-playlist_1 : "**භාවිතය:** /play [සංගීත නාමය හෝ Youtube සබැඳිය හෝ ශ්‍රව්‍ය වෙත පිළිතුරු දෙන්න]\nඔබට Bots Server Playlist වාදනය කිරීමට අවශ්‍ය නම්! පහත බොත්තම ඔබන්න."
+playlist_1 : "**භාවිතය:** /p [සංගීත නාමය හෝ Youtube සබැඳිය හෝ ශ්‍රව්‍ය වෙත පිළිතුරු දෙන්න]\nඔබට Bots Server Playlist වාදනය කිරීමට අවශ්‍ය නම්! පහත බොත්තම ඔබන්න."
 playlist_2 : "ඔබගේ ධාවන ලැයිස්තුව ලබා ගනිමින්. කරුණාකර රැඳී සිටින්න"
 playlist_3 : "ඔබට Bot's Server හි ධාවන ලැයිස්තුවක් නොමැත."
 playlist_4 : "ලබාගත් ධාවන ලැයිස්තුව:\n\n"

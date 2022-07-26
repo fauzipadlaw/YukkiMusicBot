@@ -96,7 +96,7 @@ setting_10 : "⁉️ Apa Ini?\n\n1) Grup: Memutar musik di grup tempat perintah 
 setting_11 : "⁉️ Apa Ini?\n\n1) Semua Orang: Siapa saja yang hadir di grup ini dapat memutar musik di sini.\n\n2) Hanya Admin: Hanya admin yang dapat memutar musik di grup ini."
 setting_12 : "❌ Anda tidak memiliki id saluran yang ditentukan untuk mode saluran. Silakan tentukan dengan /channelplay."
 setting_13 : "Tidak dapat mengubah mode putar dalam panggilan group aktif. Harap hentikan obrolan suara terlebih dahulu dengan /stop."
-setting_14 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan segera menghapus perintah yang dijalankannya (/play, /pause, /shuffle, /stop dll).\n\nBot akan membutuhkan hak menghapus pesan admin untuk ini bekerja dengan benar."
+setting_14 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan segera menghapus perintah yang dijalankannya (/p, /pause, /shuffle, /stop dll).\n\nBot akan membutuhkan hak menghapus pesan admin untuk ini bekerja dengan benar."
 setting_15 : "Gagal menyelesaikan peer, Pastikan Anda telah menambahkan bot di saluran Anda dan mempromosikannya sebagai admin.\n\nCoba setel /channelplay lagi.."
 setting_16 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menyarankan obrolan Anda setiap 1-2 jam tentang perintah bot (Cara menggunakannya, yang merupakan perintah dan banyak hal lainnya) secara acak."
 
@@ -163,7 +163,7 @@ play_18 : "**Tidak Ditemukan Obrolan Suara Aktif**\n\nUntuk menggunakan force pl
 
 
 #Playlist
-playlist_1 : "**Penggunaan:** /play [Nama Musik atau Tautan Youtube atau Balas Audio]\n\nJika Anda ingin memutar Daftar Putar Server Bot! Tekan tombol di bawah."
+playlist_1 : "**Penggunaan:** /p [Nama Musik atau Tautan Youtube atau Balas Audio]\n\nJika Anda ingin memutar Daftar Putar Server Bot! Tekan tombol di bawah."
 playlist_2 : "Mendapatkan daftar putar Anda. Harap tunggu"
 playlist_3 : "Anda tidak memiliki playlist di Server Bot."
 playlist_4 : "Daftar Putar yang Diambil:\n\n"
@@ -448,11 +448,11 @@ sug_2 : "Anda dapat memutar musik dalam dua **jenis pemutaran** yaitu Mode Semua
 sug_3 : "Anda juga dapat memutar musik di **channels**.\n\nSetel channel_id melalui /channelplay dan putar melalui /cplay "
 sug_4 : "Non Admin juga dapat menggunakan perintah admin dengan menambahkannya ke** AUTH USERS LIST**. \nTambahkan pengguna mana pun ke daftar auth dengan /auth , hapus dengan /unauth dan periksa pengguna auth melalui /authusers"
 sug_5 : "Bot memiliki fitur yang disebut **Clean Mode**.\nIni menghapus pesan bot setelah 5 Menit dan memastikan bahwa obrolan Anda tetap bersih.\n\nAktifkan atau nonaktifkan mode bersih dari /settings [__Diaktifkan secara default__]"
-sug_6 : "Kamu juga bisa memutar lagu dan daftar putar **Spotify**.\n\nMulai mainkan sekarang dengan /play [Tautan Spotify]"
-sug_7 : "Anda juga dapat memutar lagu dan daftar putar **Apple Music**.\n\nMulai mainkan sekarang dengan /play [Apple Link]"
-sug_8 : "Anda juga dapat memutar **Musik Resso** trek dan daftar putar.\n\nMulai putar sekarang dengan /play [Resso Link]"
-sug_9 : "Kamu juga bisa memutar lagu dan playlist **Sound Cloud**.\n\nMulai mainkan sekarang dengan /play [SoundCloud Link]"
-sug_10 : "Anda dapat memutar **Video** dalam obrolan suara melalui /vplay [Nama Video] atau /play -v [Nama Video]"
+sug_6 : "Kamu juga bisa memutar lagu dan daftar putar **Spotify**.\n\nMulai mainkan sekarang dengan /p [Tautan Spotify]"
+sug_7 : "Anda juga dapat memutar lagu dan daftar putar **Apple Music**.\n\nMulai mainkan sekarang dengan /p [Apple Link]"
+sug_8 : "Anda juga dapat memutar **Musik Resso** trek dan daftar putar.\n\nMulai putar sekarang dengan /p [Resso Link]"
+sug_9 : "Kamu juga bisa memutar lagu dan playlist **Sound Cloud**.\n\nMulai mainkan sekarang dengan /p [SoundCloud Link]"
+sug_10 : "Anda dapat memutar **Video** dalam obrolan suara melalui /vplay [Nama Video] atau /p -v [Nama Video]"
 sug_11 : "Anda dapat menyetel **Kualitas Audio** obrolan suara ke Rendah, Sedang, atau Tinggi.\n\nMenyetel kualitas melalui /settings"
 sug_12 : "Anda dapat menyetel **Kualitas Video** obrolan suara ke Rendah, Sedang, atau Tinggi.\n\nMenyetel kualitas melalui /settings"
 sug_13 : "Anda dapat memeriksa **Statistik** Anda di bot seperti 10 Lagu Teratas yang Diputar.\n\nDapatkan Statistik: /gstats "
@@ -463,7 +463,7 @@ sug_17 : "Sekarang Anda dapat mengaktifkan dan menonaktifkan musik yang diputar 
 sug_18 : "Anda juga dapat mencari lirik musik bersama kami..\n\nPerintah: /lyrics [Nama Musik]"
 sug_19 : "Anda dapat mengunduh musik atau video dari bot melalui Youtube.\n\nPerintah: /song [Nama Musik]"
 sug_20 : "Anda bisa mendapatkan daftar lengkap perintah saya yang saya terima.\n\nPerintah: /help"
-sug_21 : "Bot memiliki opsi daftar putar sisi server.\n\nAnda dapat menambahkan musik di daftar putar Anda dan memutar semuanya bersama-sama melalui /play"
+sug_21 : "Bot memiliki opsi daftar putar sisi server.\n\nAnda dapat menambahkan musik di daftar putar Anda dan memutar semuanya bersama-sama melalui /p"
 sug_22 : "Sekarang Anda dapat mengacak musik yang antri di bot.\n\nPerintah: /shuffle"
 sug_23 : "Anda dapat memeriksa antrian musik.\n\nPerintah: /queue"
 sug_24 : "Anda dapat memeriksa pemilik saya dan pengguna sudo yang mengelola saya.\n\nPerintah: /sudolist"
